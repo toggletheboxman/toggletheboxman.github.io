@@ -123,3 +123,7 @@ a:active {
 .contact__button {
     padding: .5rem;
 }
+
+.links {
+    font-weight: bold;
+}
