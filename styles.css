@@ -56,6 +56,9 @@ p {
 #events {
     text-align: center;
     margin: 10px 5% 20px;
+    border: 1px solid red;
+    border-style: outset;
+    padding: 3px 0;
 }
 
 .poster {
@@ -111,11 +114,17 @@ a:active {
 
 #portfolio {
     margin: 10px 5% 20px;
+    border: 1px solid red;
+    border-style: outset;
+    padding: 3px 0;
 }
 
 #contact {
     text-align: center;
     margin: 10px 5% 10px;
+    border: 1px solid red;
+    border-style: outset;
+    padding: 3px 0;
 }
 
 .contact__input {
@@ -145,5 +154,14 @@ a:active {
 }
 
 #industries {
-    margin: 20px 0 20px 45%;
+    margin: 20px 40% 20px 40%;
+    border: 1px solid red;
+    border-style: outset;
+    padding: 3px 0;
+}
+
+#about {
+    border: 1px solid red;
+    border-style: outset;
+    padding: 3px 0;
 }
