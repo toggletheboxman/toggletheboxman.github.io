@@ -155,7 +155,7 @@ a:active {
 }
 
 #industries {
-    margin: 30px 35% 30px 35%;
+    margin: 30px 700px 30px;
     border: .1px solid red;
     padding: 2px 2px;
     font-weight: lighter;
@@ -181,7 +181,7 @@ li {
     text-align: center;
     font-weight: lighter;
     font-family: 'Courier New', Courier, monospace;
-    margin: 0 40% 0;
+    margin: 0 700px 0;
     padding: 10px 0;
     border: 1px solid rgb(131, 193, 232);
 }
@@ -192,6 +192,6 @@ li {
     font-size: larger;
     font-weight: 400;
     border: 1px solid rgb(184, 222, 163);
-    margin: 10px 40% 30px;
+    margin: 10px 700px 30px;
     padding: 10px;
 }
