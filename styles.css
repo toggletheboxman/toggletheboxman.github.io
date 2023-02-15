@@ -18,6 +18,7 @@ h2 {
 }
 
 h3 {
+    font-weight: bolder;
     padding: 10px 5% 10px;
     width: 25%;
     height: 5pxpx;
@@ -103,6 +104,11 @@ a:active {
     color: rgb(11, 71, 71);
 }
 
+#me {
+    margin: 0 25% 0;
+    text-align: center;
+}
+
 #portfolio {
     margin: 10px 5% 20px;
 }
@@ -122,8 +128,22 @@ a:active {
 
 .contact__button {
     padding: .5rem;
+    border-radius: 10%;
+    background-color: bisque;
+}
+
+.contact__button:hover {
+    text-decoration: none;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    color: rgb(66, 150, 153);
+    background-color: darkred;
 }
 
 .links {
     font-weight: bold;
+}
+
+#industries {
+    margin: 20px 0 20px 45%;
 }
