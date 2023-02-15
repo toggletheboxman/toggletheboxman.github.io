@@ -34,7 +34,8 @@ ul {
 }
 
 p {
-    margin: 0 5% 20px;
+    margin: 0 5%;
+    line-height: 1.75em;
 }
 
 .header img {
