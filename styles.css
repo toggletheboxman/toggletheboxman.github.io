@@ -56,8 +56,7 @@ p {
 #events {
     text-align: center;
     margin: 10px 5% 20px;
-    border: 1px solid red;
-    border-style: outset;
+    border: 1px solid rgb(255, 212, 212);
     padding: 3px 0;
 }
 
@@ -114,16 +113,14 @@ a:active {
 
 #portfolio {
     margin: 10px 5% 20px;
-    border: 1px solid red;
-    border-style: outset;
+    border: 1px solid rgb(255, 212, 212);
     padding: 3px 0;
 }
 
 #contact {
     text-align: center;
     margin: 10px 5% 10px;
-    border: 1px solid red;
-    border-style: outset;
+    border: 1px solid rgb(255, 212, 212);
     padding: 3px 0;
 }
 
@@ -137,6 +134,7 @@ a:active {
 
 .contact__button {
     padding: .5rem;
+    margin-bottom: 20px;
     border-radius: 10%;
     background-color: bisque;
 }
@@ -156,12 +154,11 @@ a:active {
 #industries {
     margin: 20px 40% 20px 40%;
     border: 1px solid red;
-    border-style: outset;
     padding: 3px 0;
 }
 
 #about {
-    border: 1px solid red;
-    border-style: outset;
-    padding: 3px 0;
+    border: 1px solid rgb(255, 212, 212);
+    margin: 10px 5% 20px;
+    padding: 1px 0;
 }
