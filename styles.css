@@ -212,3 +212,9 @@ li {
 #me2 {
     text-align: center;
 }
+
+.ascii {
+    text-align: right;
+    /* font-size: smaller; */
+    font-family: monospace;
+}
