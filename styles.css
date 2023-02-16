@@ -19,7 +19,7 @@ h2 {
 
 .title {
     font-weight: 500;
-    padding: 10px 5% 10px;
+    padding: 10px 20px 10px;
     width: 90%;
     height: 5pxpx;
     bottom: 5px;
@@ -112,6 +112,8 @@ a:active {
 #me {
     margin: 0 25% 0;
     text-align: center;
+    /* border: 1px solid rgb(4, 180, 196);
+    padding: 10px; */
 }
 
 #portfolio {
@@ -194,4 +196,14 @@ li {
     border: 1px solid rgb(184, 222, 163);
     margin: 10px 45% 30px;
     padding: 10px;
+}
+
+.secnum {
+    color: rgb(66, 150, 153);
+}
+
+.quote {
+    font-family: monospace;
+    font-size: xx-small;
+    color: rgb(123, 100, 177);
 }
