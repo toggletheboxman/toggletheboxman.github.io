@@ -20,7 +20,7 @@ h2 {
 .title {
     font-weight: 500;
     padding: 10px 5% 10px;
-    width: 25%;
+    width: 30%;
     height: 5pxpx;
     bottom: 5px;
     left: 25%;
@@ -192,6 +192,6 @@ li {
     font-size: larger;
     font-weight: 400;
     border: 1px solid rgb(184, 222, 163);
-    margin: 10px 35% 30px;
+    margin: 10px 45% 30px;
     padding: 10px;
 }
