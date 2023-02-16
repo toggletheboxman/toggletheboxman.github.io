@@ -1,7 +1,12 @@
+/* General site-wide styling */
+
 body {
     font-family: 'EB Garamond', serif;
     background-color: rgb(255, 252, 252);
 }
+
+
+/* Elements styling */
 
 h1 {
     padding-top: 20px;
@@ -17,14 +22,9 @@ h2 {
     margin: 10px 5% 20px;
 }
 
-.title {
-    font-weight: 500;
-    padding: 10px 20px 10px;
-    width: 90%;
-    height: 5pxpx;
-    bottom: 5px;
-    left: 25%;
-    border-bottom: 1px solid red;
+p {
+    margin: 0 5%;
+    line-height: 1.75em;
 }
 
 ul {
@@ -33,9 +33,55 @@ ul {
     font-weight: bolder;
 }
 
-p {
-    margin: 0 5%;
-    line-height: 1.75em;
+li {
+    margin-top: 10px;
+}
+
+
+/* Section class styling */
+
+#about {
+    border: 1px solid rgb(255, 212, 212);
+    margin: 10px 5% 20px;
+    padding: 1px 0;
+}
+
+#portfolio {
+    margin: 10px 5% 20px;
+    border: 1px solid rgb(255, 212, 212);
+    padding: 3px 0;
+}
+
+#events {
+    text-align: center;
+    margin: 10px 5% 20px;
+    border: 1px solid rgb(255, 212, 212);
+    padding: 3px 0;
+}
+
+#contact {
+    text-align: center;
+    margin: 10px 5% 10px;
+    border: 1px solid rgb(255, 212, 212);
+    padding: 3px 0;
+}
+
+#footer {
+    text-align: center;
+    padding: 20px 0 10px;
+}
+
+
+/* Class styling */
+
+.title {
+    font-weight: 500;
+    padding: 10px 20px 10px;
+    width: 90%;
+    height: 5pxpx;
+    bottom: 5px;
+    left: 25%;
+    border-bottom: 1px solid red;
 }
 
 .header img {
@@ -54,22 +100,32 @@ p {
     margin: 10px 5% 20px;
 }
 
-#events {
-    text-align: center;
-    margin: 10px 5% 20px;
-    border: 1px solid rgb(255, 212, 212);
-    padding: 3px 0;
+.links {
+    font-weight: bold;
 }
 
 .poster {
     width: 300px;
     height: 400px;
     padding-bottom: 20px;
+    transition: transform 0.25s ease;
 }
 
-#footer {
-    text-align: center;
-    padding: 20px 0 10px;
+.poster2 {
+    width: 600px;
+    height: 400px;
+    padding-bottom: 20px;
+    transition: transform 0.35s ease;
+}
+
+.poster1:hover {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
+
+.poster2:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 .navli {
@@ -87,6 +143,29 @@ p {
     font-weight: 100;
     font-size: larger;
 }
+
+.secnum {
+    color: rgb(66, 150, 153);
+}
+
+.quote {
+    font-family: monospace;
+    font-size: xx-small;
+    color: rgb(123, 100, 177);
+}
+
+.ascii {
+    text-align: right;
+    font-family: monospace;
+}
+
+.content {
+    font-style: normal;
+    font-weight: lighter;
+}
+
+
+/* Pseudo-class styling */
 
 a:link {
     text-decoration: none;
@@ -110,27 +189,49 @@ a:active {
     color: rgb(11, 71, 71);
 }
 
+
+/* ID styling */
+
 #me {
     margin: 0 25% 0;
     text-align: center;
-    /* border: 1px solid rgb(4, 180, 196);
-    padding: 10px; */
 }
 
-#portfolio {
-    margin: 10px 5% 20px;
-    border: 1px solid rgb(255, 212, 212);
-    padding: 3px 0;
-}
-
-#contact {
+#me2 {
     text-align: center;
-    margin: 10px 5% 10px;
-    border: 1px solid rgb(255, 212, 212);
-    padding: 3px 0;
 }
 
-.contact__input {
+#industries {
+    margin: 30px 35% 40px;
+    border: .1px solid red;
+    padding: 2px 2px 15px;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+#binary {
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 35% 0;
+    padding: 10px 0;
+    border: 1px solid rgb(131, 193, 232);
+}
+
+#email {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 400;
+    border: 1px solid rgb(184, 222, 163);
+    margin: 10px 45% 30px;
+    padding: 10px;
+}
+
+
+/* Unused contact messaging box styling */
+
+
+/* .contact__input {
     width: 25%;
     padding: 1rem;
     margin-bottom: 10px;
@@ -151,70 +252,4 @@ a:active {
     text-decoration-style: wavy;
     color: rgb(66, 150, 153);
     background-color: darkred;
-}
-
-.links {
-    font-weight: bold;
-}
-
-#industries {
-    margin: 30px 35% 40px;
-    border: .1px solid red;
-    padding: 2px 2px 15px;
-    font-weight: lighter;
-    font-size: larger;
-}
-
-#about {
-    border: 1px solid rgb(255, 212, 212);
-    margin: 10px 5% 20px;
-    padding: 1px 0;
-}
-
-.content {
-    font-style: normal;
-    font-weight: lighter;
-}
-
-li {
-    margin-top: 10px;
-}
-
-#binary {
-    text-align: center;
-    font-weight: lighter;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0 35% 0;
-    padding: 10px 0;
-    border: 1px solid rgb(131, 193, 232);
-}
-
-#email {
-    font-family: 'Courier New', Courier, monospace;
-    font-stretch: expanded;
-    font-size: larger;
-    font-weight: 400;
-    border: 1px solid rgb(184, 222, 163);
-    margin: 10px 45% 30px;
-    padding: 10px;
-}
-
-.secnum {
-    color: rgb(66, 150, 153);
-}
-
-.quote {
-    font-family: monospace;
-    font-size: xx-small;
-    color: rgb(123, 100, 177);
-}
-
-#me2 {
-    text-align: center;
-}
-
-.ascii {
-    text-align: right;
-    /* font-size: smaller; */
-    font-family: monospace;
-}
+} */
