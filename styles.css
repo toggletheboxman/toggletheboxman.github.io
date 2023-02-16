@@ -160,7 +160,7 @@ a:active {
 #industries {
     margin: 30px 35% 40px;
     border: .1px solid red;
-    padding: 2px 2px;
+    padding: 2px 2px 15px;
     font-weight: lighter;
     font-size: larger;
 }
