@@ -111,7 +111,8 @@ li {
     transition: transform 0.25s ease;
 }
 
-.poster2 {
+
+/* .poster2 {
     width: 600px;
     height: 400px;
     padding-bottom: 20px;
@@ -126,7 +127,7 @@ li {
 .poster2:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-}
+} */
 
 .navli {
     list-style-type: none;
